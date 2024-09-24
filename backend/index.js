@@ -18,9 +18,9 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions = {
-    origin:'http://localhost:3000',
-    credentials:true
-}
+    origin: ['http://localhost:3000', 'https://netflix-1-mu41.onrender.com'],
+    credentials: true
+};
 app.use(cors(corsOptions));
  
 // api
