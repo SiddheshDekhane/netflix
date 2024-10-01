@@ -18,8 +18,8 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions = {
-    origin: ['http://localhost:3000', 'https://netflix-1-mu41.onrender.com'],
-   
+    origin: ['http://localhost:3000','https://frontendnetfix.onrender.com/'],
+
 };
 app.use(cors(corsOptions));
  
